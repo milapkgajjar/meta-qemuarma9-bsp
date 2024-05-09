@@ -1,4 +1,4 @@
-# meta-qemuarma9: The Yocto (Kirkstone) layer for ARM Versatile Express boards (vexpress-a9)
+# meta-qemuarma9-bsp: The Yocto (Kirkstone) layer for ARM Versatile Express boards (vexpress-a9)
 # Resize the rootfs image
 IMAGE="./tmp/deploy/images/qemuarma9/core-image-minimal-qemuarma9.ext4"; qemu-img resize -f raw "$IMAGE" 16M
 
